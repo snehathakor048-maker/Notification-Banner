@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Frontend Internship</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NOTIFICATION BANNER (DAY 7) -->
+<div id="notification" class="notification hidden">
+    <span id="notificationText"></span>
+    <button class="close-btn" onclick="closeNotification()">✖</button>
+</div>
+
+<!-- NAVBAR (DAY 3 + DAY 4) -->
+<header class="navbar">
+    <div class="logo">LOGO</div>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Frontend</a>
+        <a href="#">UI/UX</a>
+        <button class="primary-btn">Contact</button>
+    </nav>
+
+    <div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<!-- SEARCH BAR (DAY 5) -->
+<section class="search-section">
+    <form id="searchForm" class="search-form">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="submit">🔍</button>
+    </form>
+    <p id="message"></p>
+</section>
+
+<!-- DEMO BUTTONS (DAY 7) -->
+<div class="demo-buttons">
+    <button class="primary-btn" onclick="showSuccess()">Show Success</button>
+    <button class="primary-btn" onclick="showError()">Show Error</button>
+</div>
+
+<!-- INTRO (DAY 1) -->
+<section class="intro">
+    <h1>Frontend Internship</h1>
+    <h2>All Tasks Completed (Day 1 – Day 7)</h2>
+    <p>This website is deployed using GitHub Pages.</p>
+</section>
+
+<!-- CARDS (DAY 6) -->
+<section class="card-section">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1581276879432-15a19d654956" alt="">
+        <h3>Frontend Development</h3>
+        <p>Frontend developer with a strong eye for design and experience in crafting responsive interfaces.</p>
+        <button class="primary-btn">Explore</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="">
+        <h3>UI & UX Design</h3>
+        <p>UI/UX designer focused on intuitive, user-centered, and accessible designs.</p>
+        <button class="primary-btn">Explore</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+        <h3>Responsive Design</h3>
+        <p>Layouts that adapt perfectly to mobiles, tablets, and desktops.</p>
+        <button class="primary-btn">Explore</button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
